@@ -1,0 +1,273 @@
+getData()
+x<-getData()
+reduceData(x)
+? c
+x <- 1:4
+x
+d<-c()
+d
+c
+v
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+x<-getData()
+y<-reduceData(x)
+y
+x
+y<-reduceData(x)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y<-reduceData(x)
+values
+r
+r<- 1:4
+r
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y<-reduceData(x)
+y
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y<-reduceData(x)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y<-reduceData(x)
+y
+r
+r<-List()
+r<-list()
+r
+r[1]<-7
+r
+r<-c()
+r[1]<-7
+r
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y<-reduceData(x)
+y
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+r<-c()
+r[1]<-c(10,11,34)
+r
+r[1]<-rbind(10,11,34)
+r
+r<-list()
+r[1]<-c(10,11,34)
+r<-array()
+r[1]<-c(10,11,34)
+r
+r[1]=c(10,11,34)
+library(plyr)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+warnings()
+y
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+res
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+resi
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+y
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+y
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+makeRadarPlot(z)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+makeRadarPlot(z)
+z[16]
+z$moral
+z$material
+z$social
+z$social[[4]]
+z$social[[4]]<-0
+z$social[[4]]
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+makeRadarPlot(z)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+filenames
+getData()
+filenames
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+z
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+? radarchart
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+library(RQDA)
+library(xtable)
+filepath<-"goodAnalysi/othertable - Sheet2"
+filepath
+file <- read.csv(file=paste0("/Users/kristian/Documents/Rscripts/",filepath,".csv"), sep=",", head=TRUE)
+filepath<-"goodAnalysis/othertable - Sheet2"
+file <- read.csv(file=paste0("/Users/kristian/Documents/Rscripts/",filepath,".csv"), sep=",", head=TRUE)
+filepath<-"goodsAnalysis/othertable - Sheet2"
+file <- read.csv(file=paste0("/Users/kristian/Documents/Rscripts/",filepath,".csv"), sep=",", head=TRUE)
+my.table<-xtable(file)#
+	digits(my.table)#
+	print(my.table)
+? xtable
+my.table<-xtable(file, caption="Types of Goods and their characteristics")#
+	digits(my.table)#
+	print(my.table)
+my.table<-xtable(file, caption=c("Types of Goods and their characteristics"))#
+	digits(my.table)#
+	print(my.table)
+file <- read.csv(file=paste0("/Users/kristian/Documents/Rscripts/",filepath,".csv"), sep=",", head=TRUE)#
+	label<-abbreviate(c(caption), 6)#
+	my.table<-xtable(file, caption=caption, label=label)#
+	digits(my.table)#
+	print(my.table)
+caption<-"Types of Goods and their characteristics"
+file <- read.csv(file=paste0("/Users/kristian/Documents/Rscripts/",filepath,".csv"), sep=",", head=TRUE)#
+	label<-abbreviate(c(caption), 6)#
+	my.table<-xtable(file, caption=caption, label=label)#
+	digits(my.table)#
+	print(my.table)
+library(RQDA)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+caption<-"Types of Goods and their characteristics"
+filepath<-"goodsAnalysis/othertable - Sheet2"
+convertCsvFLatex(filepath,caption)
+filepath<-"goodsAnalysis/othertable - Sheet3"
+caption<-"SEEK type of assets"
+convertCsvFLatex(filepath,caption)
+? abbreviate
+? upper.tri
+? tolower
+tolower("El camion DFE")
+filepath<-"goodsAnalysis/othertable - Sheet3(2)"
+caption<-"SEEK type of assets"
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+convertCsvFLatex(filepath,caption)
+RQDA()
+librayr(RQDA)
+library(RQDA)
+summaryCodings()
+lol<-summaryCodings()
+lol
+lol[1]
+lol[1][1]
+lol[1][[1]
+quit()
+lol[1]
+names(lol[1])
+names(lol)
+names(lol[1]$datatypes)
+names(lol[1][[3]])
+(lol[1][[3]])
+lol[1][[1]]
+lol[1][[1]][2]
+names(lol[1][[1]])
+myt<-lol[1][[1]]
+myt
+caption<-"Summary of codings"
+label<-tolower(abbreviate(c(caption), 6))#
+	my.table<-xtable(myt, caption=caption, label=label)#
+	digits(my.table)#
+	print(my.table)
+label
+my.table<-xtable(myt, caption=caption, label=label)#
+	digits(my.table)#
+	print(my.table)
+my.dtable<-xtable(myt, caption=caption, label=label)#
+	digits(my.dtable)#
+	print(my.dtable)
+library(stable)
+library(xtable)
+my.dtable<-xtable(myt, caption=caption, label=label)#
+	digits(my.dtable)#
+	print(my.dtable)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+convertCsvFLatex()
+filepath="goodsAnalysis/othertable - Sheet5"
+caption="Service-Domain Logic Foundational Premises. Adapted from (SL Vargo and R Lusch 2008)"
+convertCsvFLatex(filepath,caption)
+library(RQDA)
+filepath="goodsAnalysis/othertable - Sheet4"
+caption="Mapping the CI genome for SEEK"
+convertCsvFLatex(filepath,caption)
+filepath="goodsAnalysis/othertable - Sheet6"
+caption="Crowdsourcing Systems Model. Adapted from (Doan et al. 2011)"
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+caption="Collective Intelligence Models and Categorisations"
+filepath="goodsAnalysis/othertable - Sheet7"
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+convertCsvFLatex(filepath,caption)
+library(RQDA)
+? rqda
+?? rqda
+help(package="RQDA")
+summaryCodings()
+summaryCoding()
+SummaryCoding()
+getCodingTable()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+? radachart
+? radarchart
+pwd
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+filepath="goodsAnalysis/Framework of Collaboration - Sheet1"
+caption="Elements of Collaboration Models"
+convertCsvFLatex(filepath,caption)
+filepath="goodsAnalysis/othertable - Sheet7 (1)"
+caption="Granularity of Collective Intelligence Models. "
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+caption="Scientists motivations to collaborate"
+filepath="goodsAnalysis/othertable - Sheet9"
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/kFunctions.R")
+filepath="goodsAnalysis/othertable - Sheet12"
+caption="First Year progress summary"
+convertCsvFLatex(filepath,caption)
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()
+source("/Users/kristian/Documents/Rscripts/wikiSurvey_2010/radarplots.R")
+doData()

@@ -1,0 +1,1339 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"proce",
+				"processSharingRatio"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"usr",
+				"user"
+			],
+			[
+				"per",
+				"person_id"
+			],
+			[
+				"Dat",
+				"DataFile"
+			],
+			[
+				"proje",
+				"project_creator_id"
+			],
+			[
+				"name",
+				"names"
+			],
+			[
+				"con",
+				"contrIds"
+			],
+			[
+				"pro",
+				"project_id"
+			],
+			[
+				"dat",
+				"dataType"
+			],
+			[
+				"mode",
+				"modeller"
+			],
+			[
+				"mod",
+				"modeller"
+			],
+			[
+				"disc",
+				"disc"
+			],
+			[
+				"exp",
+				"experimentalist"
+			],
+			[
+				"opensh",
+				"opensharing"
+			],
+			[
+				"data",
+				"dataType"
+			],
+			[
+				"sop",
+				"sop_auth_lookup"
+			],
+			[
+				"model",
+				"model_auth_lookup"
+			],
+			[
+				"us",
+				"user_id"
+			],
+			[
+				"data_",
+				"data_file"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"NO",
+				"NROW"
+			],
+			[
+				"open",
+				"open"
+			],
+			[
+				"proj",
+				"project_id"
+			],
+			[
+				"asset",
+				"asset_id"
+			],
+			[
+				"project",
+				"project_id"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"getPR",
+				"getProjectMore"
+			],
+			[
+				"joi",
+				"joinAssoc"
+			],
+			[
+				"eva",
+				"eval12"
+			],
+			[
+				"D",
+				"Date"
+			],
+			[
+				"eval",
+				"eval11"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"da",
+				"data_2"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"res",
+				"res1"
+			],
+			[
+				"tit",
+				"titl"
+			],
+			[
+				"contr",
+				"contributor_id"
+			],
+			[
+				"dis",
+				"discipline_id"
+			],
+			[
+				"role",
+				"project_role_id"
+			],
+			[
+				"join",
+				"joinDiscipline"
+			],
+			[
+				"filte",
+				"filterOutPals"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"y",
+				"ylab"
+			],
+			[
+				"gue",
+				"guessDiscipline"
+			],
+			[
+				"contributor",
+				"contributor_id"
+			],
+			[
+				"filter",
+				"filterByPeriod"
+			],
+			[
+				"getC",
+				"getContributors2"
+			],
+			[
+				"filt",
+				"filterOutSysDB"
+			],
+			[
+				"file",
+				"filesize"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Normalize users\n\n\nwho contributes more\n\n- total num of experimenters: 29\n- number of experimentes contributing: 12\n- number of contributions: \n- frequency of contributions (per period):\n\n- total num of experimenters: 19\n- number of experimentes contributing: 11\n- number of contributions:\n- frequency of contributions (per period): \n\n\n",
+			"settings":
+			{
+				"buffer_size": 335,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Data/Sysmo/filesizes-and-versions-Model.csv",
+			"settings":
+			{
+				"buffer_size": 7078,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/midnighttoguhts.md",
+			"settings":
+			{
+				"buffer_size": 7537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "corpus <- Corpus(DataframeSource(data.frame(dt$title)))\ncorpus <- tm_map(corpus, removePunctuation)\ncorpus <- tm_map(corpus, tolower)\n# corpus <- tm_map(corpus, function(x) removeWords(x, stopwords(\"english\")))\ntdm <- TermDocumentMatrix(corpus)\nm <- as.matrix(tdm)\nv <- sort(rowSums(m),decreasing=TRUE)\nd <- data.frame(word = names(v),freq=v)\npal <- brewer.pal(9, \"BuGn\")\npal <- pal[-(1:2)]\nwordcloud(d$word,d$freq, scale=c(8,.3),min.freq=2,max.words=100, random.order=T, rot.per=.15, colors=pal, vfont=c(\"sans serif\",\"plain\"))\n\n\npng(\"wordcloud.png\", width=1280,height=800)\ndev.off()",
+			"settings":
+			{
+				"buffer_size": 583,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Package Control Messages\n========================\n\nMarkdownEditing:\n---------------\n\n  # MarkdownEditing 2.0.3 Changelog\n  \n  Your _MarkdownEditing_ plugin is updated. Enjoy new version. For any type of feedback you can use [GitHub issues][issues].\n  \n  ## Bug Fixes\n  \n  * \"Gather missing links\" feature was broken in ST3, fixed.\n  * \"Fix Underlined Headers\" feature was broken in ST3, fixed (thanks to @gillibrand).\n  * A bug related to link definitions was causing CPU hanging. Fixed. ([#111][], [#112][])\n  * Link and email address detection improved.\n  \n  ## New Features\n  \n  * \"Gather missing links\" feature is now more intelligent\n  * Command palette items improved\n  * Ctrl+B and Ctrl+I will unbold / unitalicize words without selecting them if they are already bold / italic. Cursor can be at anywhere of the word. Applies only to `_` style bolds / italics. This is because ST word selection (Ctrl+D) doesn't include `*` characters.\n  * Link and email address highlighting improved.\n  \n  ## Changes\n  \n  * These files are renamed. If you have used them in your user keymap file, you need to update them.\n      - `macros/Make Word Bold.sublime-macro`     -> `macros/Transform Word - Bold.sublime-macro`\n      - `macros/Make Word Italic.sublime-macro`   -> `macros/Transform Word - Italic.sublime-macro`\n  \n  [issues]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues\n  [#111]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues/111\n  [#112]: https://github.com/SublimeText-Markdown/MarkdownEditing/issues/112\n  \n",
+			"settings":
+			{
+				"buffer_size": 1547,
+				"line_ending": "Unix",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/Procrastination and the Internet- Empirical research into self-inflicted laziness.md",
+			"settings":
+			{
+				"buffer_size": 5522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "1. Title: Model-Based Scientific Collaboration\n2. Rationale: \n    - literature, \n    - potential impact, \n    - substantive or methodological puzzles or gaps in the literature, etc.\n3. Research questions and hypotheses\n\nWhat factors make a scientific community to collaborate online\n\n4. Methods",
+			"settings":
+			{
+				"buffer_size": 294,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "#MaRD Notes - Research Proposal\n\n\n- Key components\n\n## Research problem\n- clearly stand what the research about.\n- ex. \"The MAIN OBJECTIVE is to\"\n- clarify vague terms\n\n##Rationale\n- Why I am conducting this, why is important for me. why is interesting for my field. Convice is worth doing\n- ex:\n    - resolve a proble in the literature\n    - arise bedate in the literature\n    - develop better models\n \n> why is important for the Designers (they are looking for new ways), for science (the approach hasn't been used)\n\n- ex \" early shows blbabla  HOwever yadayday\" , look at the literature and find what can you do a bit different\n-\n\n##Literature\n\n- show that you have a good grasp of you know what are the problem and the solutions and the relevant solutions\n\n## Research Questions\n\n- they should be researchable, you should be able to answer them by doing reseach, they can't be vague\n- have some connection wit hestablished theory and research\n- there must be an original contribuion\n\n> link with the literature\n\nex (3 questions):\n-  Define the term \"paternal involvement\" . How is \"paternal involvement\" is operaliznsed?\n-  What...\n-  Do the...\n\n##Methods\n\n- find which are more suited, and why those are supposed to be valid \n- ex, secondary analaysis, qualitative interviews\n- identify sample\n- Choose your method data analysis. how ae you going to make sense of the data you collect.\n\n> I don't have this. there is not mehtod for this. Which technique for quotes. How ar you going to analyse the transcripts??\n\n\n##conclusion\n\n- how are you tring to prove or disprove \n- how would it make a original contribution\n- ",
+			"settings":
+			{
+				"buffer_size": 1621,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "eprog\n\n2. Progress Report on Objectives from Previous Reports (including example evidence if appropriate)\n\n- Complete the analysis of the collected data. (ongoing)\n- Initiate data collection for a comparative case study. (started 2nd case)\n- Definition of the theory that would modify the framework. (not initiated)\n\n3. Academic & Research Project Objectives (include specific activities & target completion dates)\n\n\n\n\n\n\n\n4. Personal & Professional Development Plans (include specific activities & target completion dates)\n\n- Auditing Qualitatlity Research Methods (SOCY60201) at the School of Social Sciences from the begining of the 2013-2014 1st Term\n- Autidint Scoail Methodology & Research Design (SOST70521) at the School of Social Sciences from the begining of the 2013-2014 1st Term\n\n\n\n\n------------------------\n\n1. Progress made since the previous report stating specific achievements (including example evidence if appropriate).\n\n- First Case Study has been defined.\n- Method to analyze the collected data was defined.\n- Data collection was initiated.\n- Saturation of codes has been completed for the first case study.\n\n2. Overall progress made in the project.\n\nOverall we are still working on the first case study.\n\n3. Has the overall direction of research or the project plan changed significantly since the last report ? If so describe the changes that have occurred. Should the project title be changed ?\n\nCurrently research is following the same direction. Data collection has taken longer than expected but the gained experience would helps us to get up to speed with the others studies.\n\n4. Objectives for the remaining time of the programme (including specific activities and target completion dates).\n\n- Complete the analysis of the collected data.\n- Definition of the theory that would modify the framework.\n- Initiate data collection for a comparative case study.\n\n5. Personal and Professional Development Plans (include specific activities and target completion dates).\n\n- Attended Team Science Conference 2013\n- Digital Research Abstract 2013 Submittion\n- Preparing poster for the postgraduate Seminar at University of Manchester ",
+			"settings":
+			{
+				"buffer_size": 2153,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "|           | toContribute | Toshare | %  |\n| extrinsic | 10           |         | 77 |\n| intri     |              | 3       | 23 |\n| material  | 5            |         | 38 |\n| emotional |              |         | 0  |\n| social    | 1            | 1       | 15 |\n| moral     | 4            | 2       | 36 |\n\n\n\n|                         | toContribute | to share | %  |\n| fudning                 | 3            | 1        | 33 |\n| becasue thats the rules | 4            | 1        | 41 |\n| it could help others    | 0            | 3        | 25 |\n\n\n\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/termsdefinitionsResearch.md",
+			"settings":
+			{
+				"buffer_size": 4536,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO.md",
+			"settings":
+			{
+				"buffer_size": 11145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO_v1.md",
+			"settings":
+			{
+				"buffer_size": 14092,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/style/PNASTMPL.tex",
+			"settings":
+			{
+				"buffer_size": 8377,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+			"settings":
+			{
+				"buffer_size": 841,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO.tex",
+			"settings":
+			{
+				"buffer_size": 10340,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Documents/reportingPhd.md",
+			"settings":
+			{
+				"buffer_size": 2438,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "Code by code so you can have a consice acknolegment of what the code means.\n\nBut that means probably reading every file/interview each time, which would be time consuming.\n\nSo we do search with keywords\n\nwrite search term in memo\n\n\n\nthey all agree but against the the purpose of open sharing. code: \"agreement\"\n\n\nThere most be a code per interview if there is not then you didn't ask the question.\n\nthere most be a answer from each.\n\nxcv<-joinFormat(ss,\"models\")\nggplot(xcv, aes(type, fill=content.type))+geom_bar()+\ntheme(text = element_text(size=20),\naxis.text.x = element_text(angle=90, vjust=1))+ facet_grid(. ~ project_name)\n\n\n| Event           | Link  | Time | Form |\n| :---            | :--:  | :--: | :--: |\n| Bendtner's Goal | [Click](http://arsenalist.com/f/arsenal-vs-hull-city/gif-bendtner-1-0-vs-hull-city.html) | 1'   | Gif  |\n| Ozil's Goal     | [Click](http://arsenalist.com/f/arsenal-vs-hull-city/gif-bendtner-1-0-vs-hull-city.html)  | 46'  | Gif  |\n",
+			"settings":
+			{
+				"buffer_size": 967,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/kristian/Dropbox/Data/Sysmo/interviewInfo.csv",
+			"settings":
+			{
+				"buffer_size": 94,
+				"line_ending": "Unix",
+				"name": "filename, project_id, discipline_id"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ever",
+				"Send to Evernote"
+			],
+			[
+				"eve",
+				"Send to Evernote"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rep",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"EVE",
+				"Send to Evernote"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"send",
+				"Send to evernote"
+			],
+			[
+				"previe",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdownp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"soda",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Set Syntax: MultiMarkdown"
+			]
+		],
+		"width": 647.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kristian/Dropbox/Scripts/assetsSysmo.r",
+		"/Users/kristian/Dropbox/Scripts/userSysmo.R",
+		"/Users/kristian/Dropbox/Scripts/qualitativeSysmo.R",
+		"/Users/kristian/Dropbox/Scripts/projectSysmo.r",
+		"/Users/kristian/Dropbox/Documents/style/muclosing",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Markdown (Standard).sublime-settings",
+		"/Users/kristian/Dropbox/Documents/style/simpletemp.tex",
+		"/Users/kristian/Dropbox/Documents/style/PNASTMPL.tex",
+		"/Users/kristian/Downloads/pnas_template/PNASTMPL.tex",
+		"/Users/kristian/Dropbox/Scripts/dataSamplerSysmo.r",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.tex",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.md",
+		"/Users/kristian/Dropbox/Data/Sysmo/sample4/users.csv",
+		"/Users/kristian/Dropbox/Data/Sysmo/sample/sops.csv",
+		"/Users/kristian/Dropbox/Data/Sysmo/sample/sop_auth_lookup.csv",
+		"/Users/kristian/Dropbox/Data/Sysmo/sample/data_files.csv",
+		"/Users/kristian/data_files.csv",
+		"/Users/kristian/Dropbox/Data/Sysmo/models.csv",
+		"/Users/kristian/Dropbox/Scripts/sysmo.sublime-project",
+		"/Users/kristian/Dropbox/Documents/motivationsSurveySymo.md",
+		"/Users/kristian/Dropbox/Documents/researchDesignPhd.md",
+		"/Users/kristian/Dropbox/Documents/MMDcopy1YR.md",
+		"/Users/kristian/Google Drive/sillico trip.gdoc",
+		"/Users/kristian/Documents/papers/simpletemp.tex",
+		"/Users/kristian/Dropbox/Documents/keynoteDR13.md",
+		"/Users/kristian/Documents/papers/shortReportv1.tex",
+		"/Users/kristian/Dropbox/Documents/figshareSurveyDataOne.md",
+		"/Users/kristian/Dropbox/Documents/reportMeetingVLN.md",
+		"/Users/kristian/Dropbox/Documents/motivationsExperimentalDesignSysmo.md",
+		"/Users/kristian/Dropbox/Documents/activitySysMO.md",
+		"/Users/kristian/Dropbox/Documents/essayContributionSysmo.md",
+		"/Users/kristian/Dropbox/Documents/interviewguideVLN.md",
+		"/Users/kristian/Dropbox/Documents/posterPGRSymp13.md",
+		"/Users/kristian/Dropbox/Documents/meeting2708.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/README.md",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.bbl",
+		"/Users/kristian/Dropbox/Documents/table5.md",
+		"/Users/kristian/Dropbox/Documents/table4.md",
+		"/Users/kristian/Dropbox/Documents/table3.md",
+		"/Users/kristian/Dropbox/Documents/table2.md",
+		"/Users/kristian/Dropbox/Documents/irelaizedaboutMy.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai2.tmTheme",
+		"/Users/kristian/Dropbox/Data/transcripts/i6.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i7.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i5.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i8.md",
+		"/Users/kristian/Dropbox/Documents/beamerthemebeamerposter.sty",
+		"/Users/kristian/Documents/papers/muclosing",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/SmartMarkdown/Default.sublime-keymap",
+		"/Users/kristian/Dropbox/Documents/notebooxMy.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/MonokaiMD.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MonokaiMD.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MarkdownEditor-Focus.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MarkdownEditorKris.tmTheme",
+		"/Users/kristian/Dropbox/Documents/evaluationContriSysmo.md",
+		"/Users/kristian/Downloads/uclpostertemplate-a1.tex",
+		"/Users/kristian/Dropbox/Documents/thoughtsNaturalexperimentPhD.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Theme - Soda/Soda Light/Widget - Soda Light.stTheme",
+		"/Users/kristian/Dropbox/Documents/style/mmd-beamer-begin-doc.tex",
+		"/Users/kristian/Dropbox/Documents/mmdMy.md",
+		"/Users/kristian/Dropbox/Documents/allpathsSysMO.md",
+		"/Users/kristian/Dropbox/Documents/cateThomp.md",
+		"/Users/kristian/Dropbox/Documents/surveyParisSysmo.md",
+		"/Users/kristian/Dropbox/Documents/keynoteCOMBINE13.md",
+		"/Users/kristian/Dropbox/Documents/meetingreportPhD.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Monokai.tmTheme",
+		"/Users/kristian/Dropbox/Data/transcripts/i1.csv",
+		"/Users/kristian/Dropbox/Data/transcripts/i1.txt",
+		"/Users/kristian/Dropbox/Data/transcripts/i21.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i4.md",
+		"/Users/kristian/Dropbox/Data/transcripts/I3.md",
+		"/Users/kristian/Dropbox/Data/Sysmo/activity_logs.csv",
+		"/Users/kristian/Dropbox/Data/transcripts/i2-2.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Theme - Soda/Soda Light.sublime-theme",
+		"/Users/kristian/Dropbox/Documents/style/beamerthememoumaster.sty",
+		"/Users/kristian/Dropbox/Documents/beamerthememoumaster.sty",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/kristian/Dropbox/Documents/style/mmd-beamer-header.tex",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/SublimeEvernote.sublime-settings",
+		"/Users/kristian/Dropbox/Documents/style/mmd-article-header.tex",
+		"/Users/kristian/Dropbox/Documents/style/mmd-article-begin-doc.tex",
+		"/Users/kristian/Dropbox/Documents/style/slideIntro.tex",
+		"/Users/kristian/Documents/papers/slideClass.tex",
+		"/Users/kristian/Documents/papers/masterSlide.tex",
+		"/Users/kristian/Documents/papers/comp81.tex",
+		"/Users/kristian/Library/Application Support/MultiMarkdown Composer/Styles/Manuscript.style",
+		"/Users/kristian/Dropbox/Documents/defyMy.txt",
+		"/Users/kristian/Dropbox/Documents/keynoteDR13.tex",
+		"/Users/kristian/Downloads/BBEditMarkdownExtensions/Markdown.bbpackage/Contents/Text Filters/mmd2tex",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/kristian/Documents/Rscripts/parallelset.r",
+		"/Users/kristian/Dropbox/Sysmo/userSysmo.R",
+		"/Users/kristian/Dropbox/Sysmo/sysmoqa.R",
+		"/Users/kristian/Dropbox/Sysmo/assetsSysmo.r",
+		"/Users/kristian/Dropbox/texts/noteboox.md",
+		"/Users/kristian/Dropbox/Sysmo/method.txt",
+		"/Users/kristian/Dropbox/texts/table.md",
+		"/Users/kristian/Dropbox/texts/csvtommd.rb",
+		"/Users/kristian/Dropbox/texts/meeting2708.md",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote2.md",
+		"/Users/kristian/Dropbox/texts/fernandolist.md",
+		"/Users/kristian/Dropbox/texts/abstract.md",
+		"/Users/kristian/Dropbox/Sysmo/coding.md",
+		"/Users/kristian/Dropbox/texts/keynoteDraftDR13",
+		"/Users/kristian/Dropbox/Sysmo/protocol.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/kristian/Documents/abs_haun.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/kristian/Documents/papers/MMDcopy1YR.md",
+		"/Users/kristian/Documents/Rscripts/Sysmo/activity_logs.csv",
+		"/Users/kristian/Dropbox/texts/Interview Guide.txt",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote.tex",
+		"/Users/kristian/Documents/papers/mmd-beamer-begin-doc.tex",
+		"/Users/kristian/Dropbox/texts/form3_180.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Scriptogram/README.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/kristian/Dropbox/Apps/scriptogram/posts/abstract2.md",
+		"/Users/kristian/Downloads/ttscoff-MarkdownEditing-1d99486/README.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownTOC/MarkdownTOC.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"%",
+			"ratio",
+			"share",
+			"ratio",
+			"rat",
+			"isOpenShared",
+			"factors",
+			"assets",
+			"motivations",
+			"benklerModel",
+			"|",
+			"modelssize",
+			"rel",
+			" application/pdf, application/pdf",
+			"application/octet-stream, application/pdf, application/pdf, application/pdf, application/pdf, application/pdf, application/pdf, application/pdf",
+			"count",
+			"gg",
+			"ggp",
+			"rel",
+			"nm",
+			"junk",
+			"nm",
+			"junk",
+			"data",
+			"data_file",
+			"**",
+			"#",
+			"getMembers",
+			"can_download",
+			"project_observer_id",
+			"project_creator_id",
+			"getAllresc",
+			"assets",
+			"getall",
+			"dt",
+			"xkcd.",
+			"xkcd",
+			"completeUserData",
+			"getContributors31",
+			"getcontributors3(",
+			"getcontributors3",
+			"getcontributors2",
+			"getcontributors2(",
+			"getcontributors3(",
+			"getcontributors(",
+			"projectContBySize2",
+			"getContributors",
+			"graphVerDistribution",
+			"joinDiversityCoeff",
+			"getContributors2(",
+			"getContributors(",
+			"getContri",
+			"getCat",
+			"joinRole",
+			"getContributors2(",
+			"completeUserData(",
+			"data_2",
+			"contrList",
+			"getContributors(",
+			"getContributors",
+			"frequency.x",
+			"b<-getContributors(1)",
+			"  b<-getContributors(1)\n",
+			"getContributors(",
+			"contributors3",
+			"contributo",
+			"getcon",
+			"guessD",
+			"drop",
+			"guessD",
+			"getDi",
+			"getDis",
+			"contributors",
+			"comple",
+			"all",
+			"s",
+			"contrIds",
+			"getContributors",
+			")\n",
+			"Freq",
+			"pFreq",
+			"ilteroutp",
+			"ilter",
+			"users",
+			"pals",
+			"sample",
+			"/sample4/",
+			", se",
+			"\"~/Dropbox/Data/Sysmo/sample4/",
+			"ds",
+			"r",
+			"sample2/",
+			"/sample3",
+			"Dropbox",
+			"/sample2/",
+			"/sample/",
+			"sample",
+			"ass",
+			"asoc",
+			"contributor_id",
+			")[1]",
+			"gues",
+			"dataType",
+			"SysMO",
+			"dl",
+			"data",
+			",all.x=TRUE",
+			"users",
+			"r",
+			"getall",
+			"Contributors' Culture",
+			"bw",
+			"intrasharing",
+			"guessD",
+			"gues",
+			"dis",
+			"gues",
+			"guess",
+			"projectdata",
+			"project_id",
+			"nAssets",
+			"joinAssoc",
+			"asso",
+			"data",
+			"summa",
+			"eval",
+			"media",
+			"medi"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 3,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"settings":
+					{
+						"buffer_size": 335,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								335,
+								335
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/kristian/Dropbox/Data/Sysmo/filesizes-and-versions-Model.csv",
+					"settings":
+					{
+						"buffer_size": 7078,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6415,
+								6415
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/kristian/Dropbox/Documents/midnighttoguhts.md",
+					"settings":
+					{
+						"buffer_size": 7537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1184,
+								1184
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"settings":
+					{
+						"buffer_size": 583,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								529,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"settings":
+					{
+						"buffer_size": 1547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1547,
+								1547
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/kristian/Dropbox/Documents/Procrastination and the Internet- Empirical research into self-inflicted laziness.md",
+					"settings":
+					{
+						"buffer_size": 5522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3219,
+								3219
+							]
+						],
+						"settings":
+						{
+							"parser": "github",
+							"syntax": "Packages/Markdown/Markdown.tmLanguage",
+							"target": "disk"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"settings":
+					{
+						"buffer_size": 294,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								282,
+								282
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/MultiMarkdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"settings":
+					{
+						"buffer_size": 1621,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								403,
+								403
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"settings":
+					{
+						"buffer_size": 2153,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								419,
+								419
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/kristian/Dropbox/Documents/termsdefinitionsResearch.md",
+					"settings":
+					{
+						"buffer_size": 4536,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 1484.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO.md",
+					"settings":
+					{
+						"buffer_size": 11145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"spell_check": true,
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO_v1.md",
+					"settings":
+					{
+						"buffer_size": 14092,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/Users/kristian/Dropbox/Documents/style/PNASTMPL.tex",
+					"settings":
+					{
+						"buffer_size": 8377,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3249.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+					"settings":
+					{
+						"buffer_size": 841,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "/Users/kristian/Dropbox/Documents/paperOxfordSySMO.tex",
+					"settings":
+					{
+						"buffer_size": 10340,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LaTeX/LaTeX.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "/Users/kristian/Dropbox/Documents/reportingPhd.md",
+					"settings":
+					{
+						"buffer_size": 2438,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1069,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
+					"settings":
+					{
+						"buffer_size": 967,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								462,
+								434
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 18,
+					"file": "/Users/kristian/Dropbox/Data/Sysmo/interviewInfo.csv",
+					"settings":
+					{
+						"buffer_size": 94,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								47,
+								47
+							]
+						],
+						"settings":
+						{
+							"auto_name": "filename, project_id, discipline_id",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.markdown":
+	{
+		"height": 28.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/kristian/Dropbox/Documents/writing.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true
+}

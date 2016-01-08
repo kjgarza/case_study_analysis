@@ -1,0 +1,1027 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f",
+				"function"
+			],
+			[
+				"fa",
+				"factor"
+			],
+			[
+				"disc",
+				"discipline_id"
+			],
+			[
+				"data_",
+				"data_file"
+			],
+			[
+				"ass",
+				"assets"
+			],
+			[
+				"user",
+				"users"
+			],
+			[
+				"r",
+				"r"
+			],
+			[
+				"pro",
+				"processCsv"
+			],
+			[
+				"use",
+				"users"
+			],
+			[
+				"NO",
+				"NROW"
+			],
+			[
+				"open",
+				"open"
+			],
+			[
+				"proj",
+				"project_id"
+			],
+			[
+				"asset",
+				"asset_id"
+			],
+			[
+				"project",
+				"project_id"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"getPR",
+				"getProjectMore"
+			],
+			[
+				"joi",
+				"joinAssoc"
+			],
+			[
+				"eva",
+				"eval12"
+			],
+			[
+				"D",
+				"Date"
+			],
+			[
+				"eval",
+				"eval11"
+			],
+			[
+				"a",
+				"a"
+			],
+			[
+				"mode",
+				"Modeller"
+			],
+			[
+				"da",
+				"data_2"
+			],
+			[
+				"fu",
+				"fun	Function"
+			],
+			[
+				"res",
+				"res1"
+			],
+			[
+				"tit",
+				"titl"
+			],
+			[
+				"contr",
+				"contributor_id"
+			],
+			[
+				"dis",
+				"discipline_id"
+			],
+			[
+				"role",
+				"project_role_id"
+			],
+			[
+				"us",
+				"users"
+			],
+			[
+				"join",
+				"joinDiscipline"
+			],
+			[
+				"dat",
+				"data"
+			],
+			[
+				"filte",
+				"filterOutPals"
+			],
+			[
+				"na",
+				"name"
+			],
+			[
+				"y",
+				"ylab"
+			],
+			[
+				"gue",
+				"guessDiscipline"
+			],
+			[
+				"data",
+				"dataFiles"
+			],
+			[
+				"contributor",
+				"contributor_id"
+			],
+			[
+				"filter",
+				"filterByPeriod"
+			],
+			[
+				"getC",
+				"getContributors2"
+			],
+			[
+				"filt",
+				"filterOutSysDB"
+			],
+			[
+				"file",
+				"filesize"
+			],
+			[
+				"model",
+				"models"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "assetsSysmo.r",
+			"settings":
+			{
+				"buffer_size": 17883,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "qualitativeSysmo.R",
+			"settings":
+			{
+				"buffer_size": 2686,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projectSysmo.r",
+			"settings":
+			{
+				"buffer_size": 6916,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "userSysmo.R",
+			"settings":
+			{
+				"buffer_size": 23501,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sharedAssetSysmo.r",
+			"settings":
+			{
+				"buffer_size": 9441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "userDbM.r",
+			"settings":
+			{
+				"buffer_size": 5431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "projectsDbM.r",
+			"settings":
+			{
+				"buffer_size": 396,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "contrastCodeSysmo.r",
+			"settings":
+			{
+				"buffer_size": 5004,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "dataSamplerSysmo.r",
+			"settings":
+			{
+				"buffer_size": 2537,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "mainSysmo.R",
+			"settings":
+			{
+				"buffer_size": 2739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "|           | toContribute | Toshare | %  |\n| extrinsic | 10           |         | 77 |\n| intri     |              | 3       | 23 |\n| material  | 5            |         | 38 |\n| emotional |              |         | 0  |\n| social    | 1            | 1       | 15 |\n| moral     | 4            | 2       | 36 |\n\n\n\n|                         | toContribute | to share | %  |\n| fudning                 | 3            | 1        | 33 |\n| becasue thats the rules | 4            | 1        | 41 |\n| it could help others    | 0            | 3        | 25 |\n\n\n\n\n\n\n\n",
+			"settings":
+			{
+				"buffer_size": 554,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 187.0,
+		"selected_items":
+		[
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pre",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ever",
+				"Send to Evernote"
+			],
+			[
+				"eve",
+				"Send to Evernote"
+			],
+			[
+				"prev",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"previ",
+				"Markdown Preview: Github Flavored Markdown: Copy to Clipboard"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"rep",
+				"Set Syntax: Regular Expressions (Python)"
+			],
+			[
+				"EVE",
+				"Send to Evernote"
+			],
+			[
+				"preview",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"send",
+				"Send to evernote"
+			],
+			[
+				"previe",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markdownp",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"soda",
+				"Preferences: Package Control Settings – Default"
+			],
+			[
+				"mark",
+				"Markdown Preview: Preview in Browser"
+			],
+			[
+				"install Package",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"ma",
+				"Set Syntax: MultiMarkdown"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": true,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kristian/Dropbox/Scripts/Piwowar_Metrics2009_statistics.R",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.md",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.tex",
+		"/Users/kristian/Dropbox/Documents/style/simpletemp.tex",
+		"/Users/kristian/Dropbox/Documents/termsdefinitionsResearch.md",
+		"/Users/kristian/Dropbox/Documents/reportingPhd.md",
+		"/Users/kristian/Dropbox/Documents/Procrastination and the Internet- Empirical research into self-inflicted laziness.md",
+		"/Users/kristian/Dropbox/Documents/motivationsSurveySymo.md",
+		"/Users/kristian/Dropbox/Documents/researchDesignPhd.md",
+		"/Users/kristian/Dropbox/Documents/MMDcopy1YR.md",
+		"/Users/kristian/Google Drive/sillico trip.gdoc",
+		"/Users/kristian/Documents/papers/simpletemp.tex",
+		"/Users/kristian/Dropbox/Documents/keynoteDR13.md",
+		"/Users/kristian/Documents/papers/shortReportv1.tex",
+		"/Users/kristian/Dropbox/Documents/style/muclosing",
+		"/Users/kristian/Dropbox/Documents/figshareSurveyDataOne.md",
+		"/Users/kristian/Dropbox/Documents/reportMeetingVLN.md",
+		"/Users/kristian/Dropbox/Documents/motivationsExperimentalDesignSysmo.md",
+		"/Users/kristian/Dropbox/Documents/activitySysMO.md",
+		"/Users/kristian/Dropbox/Documents/essayContributionSysmo.md",
+		"/Users/kristian/Dropbox/Documents/interviewguideVLN.md",
+		"/Users/kristian/Dropbox/Documents/posterPGRSymp13.md",
+		"/Users/kristian/Dropbox/Documents/meeting2708.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/README.md",
+		"/Users/kristian/Dropbox/Documents/paperOxfordSySMO.bbl",
+		"/Users/kristian/Dropbox/Documents/table5.md",
+		"/Users/kristian/Dropbox/Documents/table4.md",
+		"/Users/kristian/Dropbox/Documents/table3.md",
+		"/Users/kristian/Dropbox/Documents/table2.md",
+		"/Users/kristian/Dropbox/Documents/irelaizedaboutMy.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/Monokai2.tmTheme",
+		"/Users/kristian/Dropbox/Data/transcripts/i6.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i7.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i5.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i8.md",
+		"/Users/kristian/Dropbox/Documents/beamerthemebeamerposter.sty",
+		"/Users/kristian/Documents/papers/muclosing",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/SmartMarkdown/Default.sublime-keymap",
+		"/Users/kristian/Dropbox/Documents/notebooxMy.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Color Scheme - Default/MonokaiMD.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MonokaiMD.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MarkdownEditor-Focus.tmTheme",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MarkdownEditorKris.tmTheme",
+		"/Users/kristian/Dropbox/Documents/evaluationContriSysmo.md",
+		"/Users/kristian/Downloads/uclpostertemplate-a1.tex",
+		"/Users/kristian/Dropbox/Documents/thoughtsNaturalexperimentPhD.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Theme - Soda/Soda Light/Widget - Soda Light.stTheme",
+		"/Users/kristian/Dropbox/Documents/style/mmd-beamer-begin-doc.tex",
+		"/Users/kristian/Dropbox/Documents/mmdMy.md",
+		"/Users/kristian/Dropbox/Documents/allpathsSysMO.md",
+		"/Users/kristian/Dropbox/Documents/cateThomp.md",
+		"/Users/kristian/Dropbox/Documents/surveyParisSysmo.md",
+		"/Users/kristian/Dropbox/Documents/keynoteCOMBINE13.md",
+		"/Users/kristian/Dropbox/Documents/meetingreportPhD.md",
+		"/Users/kristian/Dropbox/Scripts/qualitativeSysmo.R",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Monokai.tmTheme",
+		"/Users/kristian/Dropbox/Data/transcripts/i1.csv",
+		"/Users/kristian/Dropbox/Data/transcripts/i1.txt",
+		"/Users/kristian/Dropbox/Data/transcripts/i21.md",
+		"/Users/kristian/Dropbox/Data/transcripts/i4.md",
+		"/Users/kristian/Dropbox/Data/transcripts/I3.md",
+		"/Users/kristian/Dropbox/Data/Sysmo/activity_logs.csv",
+		"/Users/kristian/Dropbox/Data/transcripts/i2-2.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Theme - Soda/Soda Light.sublime-theme",
+		"/Users/kristian/Dropbox/Documents/style/beamerthememoumaster.sty",
+		"/Users/kristian/Dropbox/Documents/beamerthememoumaster.sty",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/MultiMarkdown.sublime-settings",
+		"/Users/kristian/Dropbox/Documents/style/mmd-beamer-header.tex",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/SublimeEvernote.sublime-settings",
+		"/Users/kristian/Dropbox/Documents/style/mmd-article-header.tex",
+		"/Users/kristian/Dropbox/Documents/style/mmd-article-begin-doc.tex",
+		"/Users/kristian/Dropbox/Documents/style/slideIntro.tex",
+		"/Users/kristian/Documents/papers/slideClass.tex",
+		"/Users/kristian/Documents/papers/masterSlide.tex",
+		"/Users/kristian/Documents/papers/comp81.tex",
+		"/Users/kristian/Library/Application Support/MultiMarkdown Composer/Styles/Manuscript.style",
+		"/Users/kristian/Dropbox/Documents/defyMy.txt",
+		"/Users/kristian/Dropbox/Documents/keynoteDR13.tex",
+		"/Users/kristian/Downloads/BBEditMarkdownExtensions/Markdown.bbpackage/Contents/Text Filters/mmd2tex",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/kristian/Documents/Rscripts/parallelset.r",
+		"/Users/kristian/Dropbox/Sysmo/userSysmo.R",
+		"/Users/kristian/Dropbox/Sysmo/sysmoqa.R",
+		"/Users/kristian/Dropbox/Sysmo/assetsSysmo.r",
+		"/Users/kristian/Dropbox/texts/noteboox.md",
+		"/Users/kristian/Dropbox/Sysmo/method.txt",
+		"/Users/kristian/Dropbox/texts/table.md",
+		"/Users/kristian/Dropbox/texts/csvtommd.rb",
+		"/Users/kristian/Dropbox/texts/meeting2708.md",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote2.md",
+		"/Users/kristian/Dropbox/texts/fernandolist.md",
+		"/Users/kristian/Dropbox/texts/abstract.md",
+		"/Users/kristian/Dropbox/Sysmo/coding.md",
+		"/Users/kristian/Dropbox/texts/keynoteDraftDR13",
+		"/Users/kristian/Dropbox/Sysmo/protocol.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Package Control/Package Control.sublime-settings",
+		"/Users/kristian/Documents/abs_haun.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/kristian/Documents/papers/MMDcopy1YR.md",
+		"/Users/kristian/Documents/Rscripts/Sysmo/activity_logs.csv",
+		"/Users/kristian/Dropbox/texts/Interview Guide.txt",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote.tex",
+		"/Users/kristian/Documents/papers/mmd-beamer-begin-doc.tex",
+		"/Users/kristian/Dropbox/texts/form3_180.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/Scriptogram/README.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/MultiMarkdown.sublime-settings",
+		"/Users/kristian/Dropbox/texts/DR2013_keynote.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/User/MarkdownPreview.sublime-settings",
+		"/Users/kristian/Dropbox/Apps/scriptogram/posts/abstract2.md",
+		"/Users/kristian/Downloads/ttscoff-MarkdownEditing-1d99486/README.md",
+		"/Users/kristian/Library/Application Support/Sublime Text 2/Packages/MarkdownTOC/MarkdownTOC.sublime-settings"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"3",
+			"15",
+			"processSharingReportDiscipline",
+			"3",
+			"dataType",
+			"isInterShared",
+			"projs",
+			"users",
+			"project_subscriptions",
+			"users",
+			"getSharingReport",
+			"projectContBySize2",
+			"gini",
+			"joinDiversityCoeff",
+			"diver",
+			"gini",
+			"20",
+			"18",
+			"pc.last",
+			")",
+			"treatment",
+			"x",
+			"sum(",
+			"sum",
+			"r",
+			"data",
+			"project_role_id",
+			"s",
+			"project_name",
+			"r",
+			"df2",
+			"title",
+			"x",
+			"c",
+			"drop",
+			"r",
+			"getall",
+			"Contributors' Culture",
+			"bw",
+			"intrasharing",
+			"guessD",
+			"gues",
+			"dis",
+			"gues",
+			"guess",
+			"projectdata",
+			"project_id",
+			"nAssets",
+			"joinAssoc",
+			"asso",
+			"data",
+			"summa",
+			"eval",
+			"media",
+			"medi",
+			"disc",
+			"grou",
+			"process",
+			"processC",
+			"proce",
+			"proces",
+			"users",
+			"filterOutSysDB",
+			"group",
+			"intersharing",
+			"data",
+			"project_id",
+			"intersharing",
+			"r",
+			"assets",
+			"r",
+			"project_id",
+			"data",
+			"users",
+			"uniq",
+			",]\n",
+			"sop",
+			"proje",
+			"  return(nrow(lookuptbl[lookuptbl$can_download == 1,]))\n",
+			"get",
+			"project",
+			"culture",
+			"Culture",
+			"culture",
+			"Culture",
+			"culture",
+			"Culture",
+			"mat",
+			"matt",
+			"users",
+			"colla",
+			"Participant",
+			"Participant's Culture",
+			"particip",
+			"membe",
+			"contributor",
+			"[]",
+			"demographics",
+			".bbl",
+			".bib",
+			".bbl",
+			".bi",
+			".bib",
+			"bib",
+			"Participants",
+			"p2_img",
+			"p1_img",
+			"fwk",
+			"Research Question",
+			"##",
+			"#",
+			"###",
+			"ggparcoord",
+			"moti",
+			"ggp",
+			"gg",
+			"par",
+			"inactiveSelection",
+			"B5D3E5",
+			"Appendix",
+			"log",
+			" %",
+			"keep",
+			"ggpl",
+			"gg",
+			"ds",
+			"  ds$date<-ds$ncreated_at\n",
+			"sex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "assetsSysmo.r",
+					"settings":
+					{
+						"buffer_size": 17883,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								15607,
+								15625
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 8826.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "qualitativeSysmo.R",
+					"settings":
+					{
+						"buffer_size": 2686,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 368.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "projectSysmo.r",
+					"settings":
+					{
+						"buffer_size": 6916,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "userSysmo.R",
+					"settings":
+					{
+						"buffer_size": 23501,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								488,
+								495
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"wrap_width": 70
+						},
+						"translation.x": 0.0,
+						"translation.y": 13224.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "sharedAssetSysmo.r",
+					"settings":
+					{
+						"buffer_size": 9441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5239,
+								5239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2752.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "userDbM.r",
+					"settings":
+					{
+						"buffer_size": 5431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3297,
+								3311
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2128.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "projectsDbM.r",
+					"settings":
+					{
+						"buffer_size": 396,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								396,
+								396
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "contrastCodeSysmo.r",
+					"settings":
+					{
+						"buffer_size": 5004,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3258,
+								3258
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "dataSamplerSysmo.r",
+					"settings":
+					{
+						"buffer_size": 2537,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								460,
+								427
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "mainSysmo.R",
+					"settings":
+					{
+						"buffer_size": 2739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								843,
+								853
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/R/R.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"settings":
+					{
+						"buffer_size": 554,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								551,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/MarkdownEditing/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.markdown":
+	{
+		"height": 28.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": false,
+	"side_bar_visible": true,
+	"side_bar_width": 181.0,
+	"status_bar_visible": true
+}

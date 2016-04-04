@@ -2,7 +2,7 @@
 getProjInfo<-function() {
   r<-processCsv("projects")
   r$interview<-c(TRUE,FALSE,TRUE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,FALSE,FALSE,FALSE,FALSE,TRUE,FALSE)
-  r$fund<-c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,FALSE,"N","N")
+  r$fund<-c(TRUE,TRUE,TRUE,FALSE,TRUE,FALSE,FALSE,FALSE,TRUE,FALSE,FALSE,TRUE,TRUE,"N","N")
   r$openShare<-c(FALSE)
   r$activity<-c(FALSE)
 
@@ -17,6 +17,9 @@ getProjInfo<-function() {
   r$openShare[15]<-TRUE
   r$openShare[14]<-TRUE
   r$openShare[3]<-TRUE
+
+  r$lifetime<-c(3,3,3,1,3,1,1,1,1,1,1,3,3,2,2)
+  r$project_name <- r$name
 
 
   return(r)
@@ -33,7 +36,7 @@ getSummary<-function() {
 
 
 
-# Contribution by project  
+# Contribution by project
 graphProjectContribution <- function(){
   data <- processCsv('data_files_projects')
   numberProjects<-length(unique(unlist(data$project_id, use.names = FALSE)))
@@ -47,7 +50,7 @@ graphProjectContribution <- function(){
 graphProjMore<-function() {
   r<-getProjectMore()
   sp <- ggplot(r, aes(x=project_name, y=actFreq))  + geom_point()
-  sp + theme(axis.text.x = element_text(angle = 90, hjust = 1)) 
+  sp + theme(axis.text.x = element_text(angle = 90, hjust = 1))
 
   sp <- ggplot(r[1:12], aes(x=participants, y=actFreq, label=project_name))  + geom_point() + geom_text(size=5)
   sp + theme(axis.text.x = element_text(angle = 90, hjust = 1)) + geom_point(aes(colour = total, size=200)) + scale_colour_gradient(trans = "log", low="red")
@@ -59,24 +62,24 @@ graphProjMore<-function() {
 projectContBySize2<- function() {
   dataf<-processCsv("data_files")
   d<-joinSize(dataf,'data_files')
-  
+
   selectC2<- function(s){
     median(d$filesize[d$contributor_id == as.character(s)])
     # sum(d$filesize[d$contributor_id == as.character(s)])
-  }  
-  
-  v<-getContributors3()    
+  }
+
+  v<-getContributors3()
   v$siz<-sapply(v$contributor_id,selectC2)
-  
+
   #     data <- read.csv(file="/Users/kristian/Documents/Rscripts/Sysmo/seekDwigini.r",sep=",",head=TRUE)
   data <- joinDiversityCoeff()
-  
-  
+
+
   #     colnames(data)[4]   <- "name"
   v<-merge(v,data, by="project_name")
-  
+
   return(v)
-} 
+}
 
 
 ## Gives you the files size distribution of all projects by project
@@ -106,14 +109,14 @@ projectContBySize<- function() {
     projs$siz[i] <- median(d$filesize[d$project_id == i])
     # projs$siz[i] <- sum(d$filesize[d$project_id == i])
   }
-  
+
   data <- processCsv('data_files_projects')
   projNum<-as.data.frame(table(data$project_id))
   colnames(projNum)[1] <- "project_id"
   colnames(projs)[1]   <- "project_id"
-  
+
   r<-merge(projs,projNum, by="project_id")
-  
+
   #    data <- read.csv(file="/Users/kristian/Documents/Rscripts/Sysmo/seekDwigini.r",sep=",",head=TRUE)
   #    colnames(data)[4]   <- "name"
   data <- joinDiversityCoeff()
@@ -148,7 +151,7 @@ getProjectMore<-function() {
 
   # users<-processCsv("users")
   # users<-joinAssoc(users)
-  users <-getMembers(0) 
+  users <-getMembers(0)
 
   users<-users[users$ncreated_at <= "2010-01-01",]
 
@@ -171,7 +174,7 @@ library(data.table)
 
 # ------------
 
-# careful these are different. particualry what you are bining is not the same. 
+# careful these are different. particualry what you are bining is not the same.
 # chek it out date of what? you want to add evertyinhg including uploads
 
 
@@ -229,7 +232,7 @@ graphProjGrowthSops <- function(p) {
   projects<-processCsv("projects")
   dataFiles <- processCsv('sops')
   dataFiles$sop_id <- dataFiles$id
-  dataFP <- processCsv('sops_projects')  
+  dataFP <- processCsv('sops_projects')
   r<-merge(dataFP,dataFiles, by="sop_id", all.x=TRUE)
   r<-r[!(r$contributor_id %in% c(NA)),]
   r<-r[(r$project_id %in% c(p)),]
@@ -247,7 +250,7 @@ graphProjGrowthData <- function(p) {
 
   dataFiles <- processCsv('data_files')
   dataFiles$data_file_id <- dataFiles$id
-  dataFP <- processCsv('data_files_projects')  
+  dataFP <- processCsv('data_files_projects')
   r<-merge(dataFP,dataFiles, by="data_file_id", all.x=TRUE)
   r<-r[!(r$contributor_id %in% c(NA)),]
   r<-r[(r$project_id %in% c(p)),]
@@ -265,7 +268,7 @@ graphProjGrowthMod <- function(p) {
 
   dataFiles <- processCsv('models')
   dataFiles$model_id <- dataFiles$id
-  dataFP <- processCsv('models_projects')  
+  dataFP <- processCsv('models_projects')
   r<-merge(dataFP,dataFiles, by="model_id", all.x=TRUE)
   r<-r[!(r$contributor_id %in% c(NA)),]
   r<-r[(r$project_id %in% c(p)),]

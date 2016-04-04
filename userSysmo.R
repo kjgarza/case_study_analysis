@@ -889,22 +889,22 @@ LogsTable <- R6Class("LogsTable",
       self$set_data(ds)
     },
     joinVersion=function(){
-      ds<-self$data
-      datafiles <- AssetsTable$new()
-      datafiles$type <- "data_file"
-      datafiles$loadtable("data_files")
-
-      ds<- merge(ds, datafiles, by=c("id","type"), all.x=TRUE)
-
-      models <- AssetsTable$new()
-      models$type <- "model"
-      models$loadtable("models")
-
-      sops <- AssetsTable$new()
-      sops$type <- "sop"
-      sops$loadtable("sops")
-
-
+      # ds<-self$data
+      # datafiles <- AssetsTable$new()
+      # datafiles$type <- "data_file"
+      # datafiles$loadtable("data_files")
+      #
+      # ds<- merge(ds, datafiles, by=c("id","type"), all.x=TRUE)
+      #
+      # models <- AssetsTable$new()
+      # models$type <- "model"
+      # models$loadtable("models")
+      #
+      # sops <- AssetsTable$new()
+      # sops$type <- "sop"
+      # sops$loadtable("sops")
+      #
+      #
 
 
 
